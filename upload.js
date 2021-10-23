@@ -1,6 +1,6 @@
 const mediaFile = document.getElementById("file");
 const form  = document.getElementById("form");
- 
+
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
