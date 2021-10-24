@@ -22,11 +22,15 @@ h1 {
   text-align: center;
   margin-top: 5%;
 }
-form {
+form div {
   display: flex;
   flex: row;
   margin-top: 15%;
   justify-content: center;
+}
+form div input {
+  margin-right: 2%;
+  margin-left: 1%;
 }
 </style>
 <body>
@@ -62,8 +66,9 @@ form {
 <form method="post" id="form" enctype="multipart/form-data">
  <div>
    <label for="file">Choose file to upload</label>
-   <input type="file" accept="video/*" id="input-tag" name="file">
-   <button type="submit">Submit</button>
+   <input type="file" class="btn btn-secondary" accept="video/*" id="input-tag" name="file">
+   <br>
+   <button type="submit" class="btn btn-dark">Submit</button>
  </div>
 </form>
 
